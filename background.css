@@ -1,0 +1,100 @@
+.bg-color {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 250, 221);
+}
+
+.bg-img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-image: url("./image03.jpg");
+    background-repeat: no-repeat; /* 이미지 반복 안되게 */
+    /* background-repeat: repeat-y; */
+
+    /* background-position: 배경이미지 상대 위치 설정 */
+    /* background-position: 50px 80px; */
+    background-position-x: 60%;
+    background-position-y: 10%;
+}
+
+.bg-attachment {
+    width: 200px;
+    height: 300px;
+    border: 1px solid brown;
+    background-image: url("./image03.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: scroll;
+}
+
+.scrolll {
+    background-attachment: scroll;
+}
+
+.fixed {
+    background-attachment: fixed;
+}
+
+.local {
+    background-attachment: local;
+}
+
+.bg-all {
+    width: 400px;
+    height: 350px;
+    /* background: red url("./image03.jpg") no-repeat 30% 50% fixed; */
+    background: url("./image03.jpg");
+}
+
+.bg-size {
+    width: 300px;
+    height: 350px;
+    border: 1px solid red;
+    background-image: url("./image03.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+
+    background-size: 20% 30%;
+}
+
+.bg-origin {
+    width: 300px;
+    height: 400px;
+    border: 5px dotted pink;
+    margin-bottom: 20px;
+    padding: 50px;
+    background-image: url("./image03.jpg");
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+}
+
+.padding-box {
+    /* 기본값 */
+    background-origin: padding-box;
+}
+
+.border-box {
+    background-origin: border-box;
+}
+
+.content-box {
+    background-origin: content-box;
+}
+
+/* gradient */
+.gradient {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.linear {
+    background: linear-gradient(135deg, pink 30%, skyblue 60%, plum 100%);
+}
+
+.radial {
+    background: radial-gradient(circle at 10% 30%, orange, yellow, skyblue);
+}

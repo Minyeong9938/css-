@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sec01 {
+    padding: 30px;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+
+/* section 02 css */
+
+.layout-item {
+    float: left;
+    width: 32%;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.margin-right {
+    margin-right: 2%;
+}
+
+/* section 03 css */
+
+.sec03 {
+    clear: both;
+    overflow: auto;
+}
+
+
+/* section 04 */
+.column-2 {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid green;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* section 05 css */
+.sec05 {
+    padding: 30px;
+    border: 1px solid blue;
+    text-align: center;
+    clear: both;
+}

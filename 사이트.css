@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sec01 {
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.sec01-img {
+    background-image: url("./이미지1.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec01-text {
+    position: absolute;
+    bottom: 50%;
+    left: 10%;
+    color: white;
+}
+
+.sec02 {
+    padding: 100px;
+}
+
+.sec02-text {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.sec03 {
+    display: flex;
+    gap: 2%;
+}
+
+.sec03-row {
+    box-sizing: border-box;
+    padding: 50px 100px;
+}
+
+.sec03-text {
+    width: 49%;
+}
+
+.sec03-img {
+    width: 49%;
+    background-image: url("./image01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+@media(max-width: 1024px) {
+    .sec03-row {
+        flex-direction: column;
+    }
+
+    .sec03-img {
+        height: 171px;
+        width: 100%;
+    }
+
+    .sec03-text {
+        width: 100%;
+    }
+}
+
+.sec04 {
+    margin: 0 auto;
+    position: relative;
+}
+
+.sec04-img {
+    background-image: url("./이미지3.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec04-text {
+    position: absolute;
+    bottom: 30%;
+    color: white;
+    left: 10%;
+
+}
+
+.sec05-conts {
+    display: flex;
+    padding: 100px;
+    gap: 2%;
+}
+
+.sec05-card {
+    width: 32%;
+    height: 450px;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec05-card-img {
+    background-image: url("./image03.jpg");
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+}
+
+.sec05-card-text {
+    box-sizing: border-box;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.sec05-card-textbox {
+    text-align: center;
+}
+
+@media(max-width: 1024px) {
+    .sec05-conts {
+        flex-direction: column;
+    }
+
+    .sec05-card {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .sec05-card-img {
+        background-size: cover;
+        /* height: 300px; */
+    }
+}

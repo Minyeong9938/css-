@@ -1,0 +1,140 @@
+.link {
+    font-size: 30px;
+}
+
+.link:link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: red;
+}
+
+.link:hover {
+    color: green;
+    font-weight: 800;
+}
+
+.link:active {
+    color: blueviolet;
+}
+
+.name:focus {
+    background-color: beige;
+    border: 3px solid red;
+    outline: none;
+}
+
+
+/* .list li:first-child {
+    color: blue;
+    }
+    
+.list li:last-child {
+    font-size: 30px;
+    }
+        
+.list li:nth-last-child(4) {
+    font-size: 10px;
+    } */
+
+
+/* 직접 선택 */
+/* .list li:nth-child(3) {
+    color: red;
+} */
+            
+/* 배수 선택 */
+/* .list li:nth-child(2n) {
+    color: blue;
+} */
+
+/* 홀수 선택 */
+/* .list li:nth-child(odd) {
+    font-size: 30px;
+} */
+
+/* 짝수 선택 */
+/* .list li:nth-child(even) {
+    font-size: 15px;
+} */
+
+/* .child p:nth-child(3) {
+    color: red;
+} */
+
+/* .child p:nth-of-type(3) {
+    color: blue;
+} */
+
+/* .list li:not(:nth-child(2)) {
+    font-size: 40px;
+} */
+
+.required::before {
+    content: '*';
+    color: red;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn {
+    position: relative;
+}
+
+.btn:hover::after {
+    content: '이 버튼은 로그인 버튼입니다';
+    position: absolute;
+    top: 0;
+    left: 110%;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+}
+
+.first-letter::first-letter {
+    color: blue;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.first-line::first-line {
+    color: red;
+}
+
+.first-letter::selection {
+    color: blue;
+    background-color: yellow;
+}
+
+.button {
+    padding: 18px 32px;
+    font-size: 20px;
+    background-color: #161a20;
+    color: #f0f0f0;
+    border-radius: 100px;
+    border: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 100px;
+    transition: 0.3s;
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    width: 104%;
+    height: 111%;
+    background-image: linear-gradient(to bottom right, #008cff, #e100ff);
+    border-radius: 100px;
+    z-index: -1;
+}
+
+.button:hover {
+    z-index: 0;
+    box-shadow: 40px 0 100px #008cff, -40px 0 100px #e100ff;
+}

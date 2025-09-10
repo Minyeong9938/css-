@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css연습</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>CSS 공부 시작</h1>
+
+    <h2 class="title1">font 속성</h2>
+    <p class="font-txt">폰트 속성을 적용한 텍스트</p>
+
+    <hr>
+
+    <h2>색상 속성</h2>
+    <p class="color-txt1">rgb로 색상 적용한 폰트 예: rgba(207, 79, 79, 0.568)</p>
+    <p class="color-txt2">16진수로 색상 적용한 폰트. 예: #70bcffd5</p>
+
+    <hr>
+
+    <h2>텍스트 속성</h2>
+    <p class="letter-spacing">글자 간격 속성을 적용한 텍스트</p>
+    <p class="word-spacing">단어 간격 속성을 적용한 텍스트</p>
+    <p class="text-align">텍스트 정렬 속성을 적용한 텍스트.</p>
+    <p class="text-indent">들여쓰기 속성 적용한 텍스트.</p>
+    <p class="line-height">줄 간격 속성 적용한 텍스트. px,%,숫자(배의 수, 가장 많이 씀)로 적용 가능</p>
+
+    <h3>text-decoration 속성</h3>
+    <p class="text-decoration-underline">밑줄 속성 적용한 텍스트</p>
+    <p class="text-decoration-overline">윗줄 속성을 적용한 텍스트</p>
+    <p class="text-decoration-line-through">취소선 속성을 적용한 텍스트</p>
+    <a class="text-decoration-none" href="https://www.naver.com/">밑줄 없애기 속성을 적용한 링크</a>
+
+    <br><br>
+
+    <h3>text-transform 속성(오직 영문자에만 적용)</h3>
+    <p class="uppercase">uppercase 속성을 적용한 텍스트.</p>
+    <p class="lowercase">LOWERCASE 속성을 적용한 텍스트.</p>
+    <p class="capitalize">captitalize 속성을 적용한 텍스트.</p>
+    <p class="text-shadow">텍스트 그림자 속성 적용한 텍스트.(가로,세로,블러)</p>
+
+    <hr>
+
+    <h2>border 속성</h2>
+    <p class="border-style">border-style 속성을 적용한 텍스트</p>
+    <p class="border-width">border-width 속성 적용한 텍스트</p>
+    <p class="border-color">border-color 속성 적용한 텍스트</p>
+    <p class="border">border 속성을 적용한 텍스트</p>
+    <p class="border-radius">border-radius 속성 적용한 텍스트</p>
+
+    <hr>
+
+    <h3>width/height (너비/높이)</h3>
+    <div class="width-height">div 태그</div>
+    <span class="width-height2">span 태그</span>
+    <p>인라인 요소는 width, height 속성이 적용 안됨. (display: inline;). 만약 인라인 요소에 너비값/높이값을 적용하고 싶다면 display: inline-block; 속성을 사용.</p>
+
+    <div class="display-none">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, officia distinctio? Consequuntur iusto aperiam neque laborum! Necessitatibus, illum inventore accusamus ut libero at eligendi, debitis quidem sequi totam sunt pariatur.
+        Quo architecto totam numquam blanditiis veritatis, tenetur excepturi, aliquam nihil magni voluptatum nesciunt explicabo quos eaque modi voluptatibus eveniet ad! Non hic ea reprehenderit corrupti, velit officia aspernatur maiores facilis.
+        Dolore eum laboriosam atque, obcaecati ut eligendi asperiores veritatis, a eaque, quisquam impedit magnam sequi? Sed esse quisquam veritatis ipsa rem, rerum nulla commodi dicta praesentium fuga mollitia enim aliquid?
+    </div>
+
+    <hr>
+
+    <h2>margin, padding 속성</h2>
+    <div class="padding">padding 속성을 적용한 box
+    </div>
+
+    <div class="margin">margin 속성을 적용한 box</div>
+
+    <br>
+
+    <h3>margin 중첨</h3>
+    <div class="box box1">box1</div>
+    <div class="box box2q">box2</div>
+    <p>margin 중첩은 두 요소의 margin값 중에서 큰 값으로 적용</p>
+
+    <hr>
+
+    <h2>box-sizing 속성</h2>
+    <p>border-box: 요소의 너비와 높이에 패딩과 border를 포함하여 계산</p>
+    <p>content-box: 요소의 너비와 높이에 패딩과 border를 제외하고 계산</p>
+    <div class="box-sizing border-box">border-box 적용한 div</div>
+    <div class="box-sizing content-box">content-box 적용한 div</div>
+
+    <hr>
+
+    <h2>list-style 속성</h2>
+
+    <ul class="ul-list">
+        <li>ul list style 적용한 리스트</li>
+        <li>ul list style 적용한 리스트</li>
+    </ul>
+    <ol class="ol-list">
+        <li>ol-list style 적용한 리스트</li>
+        <li>ol-list style 적용한 리스트</li>
+    </ol>
+
+    <!-- ol.ol-list>li*2 -->
+</body>
+</html>

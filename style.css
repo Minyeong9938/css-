@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&display=swap');
+
+
+.font-txt {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: "Asta Sans", sans-serif;;
+}
+
+.color-txt1 {
+    color: rgba(207, 79, 79, 0.568);
+}
+
+.color-txt2 {
+    color: #70bcffd5;
+}
+
+/* 텍스트 속성 */
+.letter-spacing {
+    letter-spacing: -2px;
+}
+
+.word-spacing {
+    word-spacing: 10px;
+}
+
+.text-align {
+    text-align: right;
+}
+
+.text-indent {
+    text-indent: 50px;
+}
+
+.line-height {
+    line-height: 2;
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+}
+
+.text-decoration-overline {
+    text-decoration: overline;
+}
+
+.text-decoration-line-through {
+    text-decoration: line-through;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.text-shadow {
+    text-shadow: -6px -6px 2px rgba(128, 128, 128, 0.623);
+}
+
+.border-style {
+    /* border-style: dashed solid dotted double; */
+    border-top-style: dashed;
+    border-left-style: solid;
+    border-right: double;
+}
+    /* top right bottom left 순서 */
+
+.border-width {
+    border-style: solid;
+    /* border-width: 10px; */
+    border-width: 3px 0 0 0;
+    /* border-top-width: 10px; */
+}
+
+.border-color {
+    border-style: solid;
+    /* border-color: #b3ff00; */
+    border-color: pink yellow greenyellow skyblue;
+}
+
+.border {
+    /* border: 3px solid plum; */
+    border-top: 2px dashed plum;
+    border-right: 5px solid palevioletred;
+    border-bottom: 8px dotted yellow;
+    border-left: 10px double skyblue;
+}
+
+.border-radius {
+    border: 2px solid hotpink;
+    /* border-radius: 10px; */
+    border-radius: 5px 10px 30px 10px;
+    /* width: 200px;
+    height: 200px;
+    border-radius: 50%; */
+}
+
+.width-height {
+    width: 300px;
+    height: 300px;
+    border: 2px solid silver;
+}
+
+.width-height2 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(127, 182, 255);
+}
+
+.display-none {
+    /* display: none; */
+    visibility: hidden;
+}
+
+/* padding 속성 */
+.padding {
+    border: 1px solid #000;
+    /* padding: 50px; */
+    /* padding: 20px 30px 40px 50px; */
+    /* padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-bottom: 10px; */
+
+    padding: 30px 50px;
+}
+
+/* margin 속성 */
+.margin {
+    border: 1px solid blue;
+    /* margin: 30px; */
+    /* margin: 10px 20px 30px 40px; */
+    /* margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 40px; */
+    margin: 20px 40px;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    border: 2px solid #000;
+    margin: 30px;
+}
+
+.box1 {
+    margin-bottom: 60px;
+}
+
+/* box-sizing 속성 */
+.box-sizing {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #000;
+    padding: 50px;
+}
+.border-box {
+    box-sizing: border-box;
+}
+.content-box {
+    box-sizing: content-box;
+}
+
+/* list-style 속성 */
+
+.ul-list {
+    /*기본값*/
+    /* list-style-type: disc; */
+    /* list-style-type: circle; */
+    /* list-style-type: square; */
+    list-style-type: none;
+}
+
+.ol-list {
+    /* 기본값 */
+    /* list-style-type: decimal; */
+    /* list-style-type: lower-alpha; */
+    /* list-style-type: upper-alpha; */
+    /* list-style-type: lower-roman; */
+    /* list-style-type: upper-roman; */
+    list-style-type: none;
+}

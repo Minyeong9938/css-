@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    width: 100%;
+    height: 600px;
+    background-color: pink;
+    display: flex;
+    
+    /* flex direction 기본값 */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+
+    /* flex-wrap: nowrap 기본값 */
+    flex-wrap: wrap;
+
+    /* flex-flow: flex-direction과 flex-wrap을 한번에 설정 */
+    flex-flow: row wrap;
+
+    /*기본값 */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content:flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* 기본값 */
+    /* align-content: flex-start; */
+    /* align-content: center; */
+    /* align-content: flex-end; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* 기본값 */
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+
+    /* align-items은 flex line을 기준으로 정렬, align-content는 flex line 자체를 정렬. 즉 align-content는 flex-container 자체를 정렬. */
+
+    /* row-gap: 20px; */
+    /* column-gap: 10px; */
+    gap: 20px 10px;
+}
+
+.flex-item {
+    width: 60px;
+    height: 60px;
+    background-color: palegoldenrod;
+    border: 1px solid skyblue;
+}
+
+/* order: 순서 결정. 숫자가 작을수록 앞에 배치. 기본값 0 */
+
+/* flex-grow: 증가 비율 설정. 기본값 0 */
+
+/* flex-shrink: item 축소 비율 설정. 기본값은 1. 0으로 지정 시 축소 해제되어 원래 너비값 유지 */
+
+/* flex-basis: item의 기본 너비 설정. 기본값 auto. px은 고정, %는 유동적 */
+
+/* flex: flex-grow, flex-shrink, flex-basis 를 한번에 설정. 0 1 auto */
+
+/* align-self: 각 아이템 요소 정렬 설정. 기본값 auto */
+
+.item1 {
+    /* order: 1; */
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+    /* flex-basis: 100px; */
+    /* flex: 2 2 200px; */
+    align-self: center;
+}
+
+.item2 {
+    /* order: 2; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* flex-basis: 20%; */
+    /* flex: 1 1 20%; */
+    align-self: flex-end;
+}
+
+.item3 {
+    /* order: 3; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+
+.item4 {
+    /* order: 4; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+
+.item5 {
+    /* order: 5; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+
+/* 레이아웃 */
+.flex-wrap {
+    width: 100%;
+    display: flex;
+}
+
+.item {
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.column-2 {
+    gap: 2%;
+    /* justify-content: space-between; */
+}
+
+.column-2-item {
+    width: 49%;
+}
+
+.column-3 {
+    gap: 2%;
+}
+
+.column-3-item {
+    width: 32%;
+}
+
+.column-4 {
+    gap: 2%;
+}
+
+.coolumn-4-item {
+    width: 23.5%;
+}

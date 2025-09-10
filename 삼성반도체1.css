@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-wrap {
+    width: 100%;
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.item {
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.column-2 {
+    gap: 2%;
+    margin-bottom: 2%;
+}
+
+.column-2-item {
+    width: 66%;
+}
+
+.column-2-1 {
+    gap: 2%;
+}
+
+.column-2-1-item {
+    width: 32%;
+}
+
+.column-3 {
+    gap: 2%;
+}
+
+.column-3-item {
+    width: 32%;
+}
+
+.border-radius {
+    border-style: solid;
+    border-radius: 20px
+}

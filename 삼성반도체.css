@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout-container {
+    width: 100%;
+    max-width: 1200px;
+    border: 10px solid #000;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.border-radius {
+    border-style: solid;
+    border-radius: 20px
+}
+
+.layout-item {
+    float: left;
+    padding: 30px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+
+}
+
+.margin-right {
+    margin-right: 2%;
+}
+
+.column-2-left {
+    float: left;
+    width: 66%;
+    height: 250px;
+}
+
+.column-2-right {
+    float: left;
+    width: 32%;
+    height: 250px;
+}
+
+.clear {
+    clear: both;
+}
+
+.column-3 
+{
+    float: left;
+    width: 32%;
+    height: 250px;
+}
+
+.margin-bottom {
+    margin-bottom: 2%;
+}

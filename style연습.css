@@ -1,0 +1,33 @@
+.border-style {
+    border-style: solid
+}
+
+.border-width {
+    border-style: dotted;
+    border-width: 10px;
+}
+
+.border-color {
+    border-style: double;
+    border-color: palevioletred palegoldenrod palegreen paleturquoise;
+}
+
+.border-radius {
+    border-style: dashed;
+    border-radius: 5px 10px 30px 5px;
+}
+
+.border {
+    border-top: 5px solid pink;
+    border-right: 10px solid palegoldenrod;
+    border-bottom: 20px solid skyblue;
+    border-left: 30px solid plum;
+}
+
+.color-txt1 {
+    color: brown;
+}
+
+.color-txt2 {
+    color: gold;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 100%;
+            height: 200px;
+            background-color: pink;
+        }
+
+
+        @media(max-width: 600px) {
+            .box {
+                width: 50%;
+            }
+        }
+
+        @media(max-width : 400px) {
+            .box {
+                width: 200px;
+            }
+        }
+
+        /* @media(min-width: 400px) and (max-width: 600px) {
+            .box {
+                background-color: palegreen;
+            }
+        } */
+
+        /* box width 값을 pc에서는 100%, 400px~600px까지 50%, 400px 이하는 200px */
+
+
+        /* 1025px까지 pc, 769px~1024px까지 tablet, 768px부터 그 이하는 mobile */
+        /* 1025px ~ 1280px, 1280이상~  */
+        /* 320px~768px 모바일. 320px~480px(S), 481px~768px(L) */
+    </style>
+</head>
+<body>
+
+    <h1>Hello</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, aspernatur fugiat amet consequuntur voluptates, temporibus eveniet rem blanditiis unde, voluptatibus recusandae perspiciatis. Eligendi aperiam labore corporis? Eius dolore quis delectus.</p>
+
+    <div class="box"></div>
+
+    <h3>뷰포트 단위</h3>
+    <ul>
+        <li>vw: 뷰포트 너비. 1vw는 뷰포트 너비의 1%.</li>
+        <li>vh: 뷰포트 높이. 1vh는 뷰포트 높이의 1%</li>
+        <li>vmin: 뷰포트의 너비와 높이 중 작은 값의 1%</li>
+        <li>vmax: 뷰포트의 너비와 높이 중 큰 값의 1%</li>
+    </ul>
+</body>
+</html>
